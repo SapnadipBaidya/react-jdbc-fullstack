@@ -1,0 +1,334 @@
+
+.footer{
+    background-color: white;
+}
+a {
+    color: rgba(255, 255, 255, 0.826);
+  }
+  a:hover {
+     color: rgba(198, 220, 219, 0.899)
+  }
+ .footer{
+     position: relative;
+     top:-20px;
+    color: rgba(79, 163, 224, 0.899)
+ } 
+.mainApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.blurbox{
+ 
+    width: 100%;
+    height:50%;
+    padding-top:16% ;
+    position: absolute;
+    background-color: #164070ec;
+    filter: blur(25px);
+    z-index: 190;
+}
+.anlBTN{
+  
+  background-color: rgba(0, 0, 0, 0);
+  border:none;
+  
+}
+.anlBTNtxt{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+.rfsBtn{
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 6px rgb(1, 110, 116);
+    height:60px;
+    border-radius: 9px;
+}
+.rfsBtn:hover{
+   background-color: rgba(30, 134, 129, 0.418);
+    border-radius: 22px;
+    width: 60px;
+}
+.backBTN{
+    background-color: #0000004d;
+    border:none;
+    border: solid 6px rgba(255, 255, 255, 0.425);
+    border-left: solid 3px transparent;
+    border-radius: 7px;
+
+   
+}
+.backBTN:hover{
+  
+    border-top:solid 6px #ff851c;
+    border-bottom:solid 6px #6fd42c ;
+    border-right:solid 6px #53c5f7 ;
+}
+
+.datatable{
+   position: relative;
+   border-radius: 20px;
+ 
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 97.5%;
+    background-color: #40423fa1;
+    padding-top:1% ;
+    padding-bottom: 1%;
+    transition: 2s;
+    border-radius: 20px;
+    margin-bottom: 19px;
+    margin-top: 19px;
+}
+.searchfields{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #0000003d;
+    padding-top:1% ;
+    padding-bottom: 1%;
+    transition: 2s;
+    border-radius: 20px;
+}
+.ADVNBACKbtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.edtBTN{
+    background-color: #ec760f;
+    width: 100px;
+    height: 60px;
+    border-radius: 9px;
+    border:none;
+    font-weight: bolder ;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.AddBtn{
+    background-color: #53c5f7;
+    width: 100px;
+    height: 60px;
+    border-radius: 9px;
+    border:none;
+    font-weight: bolder ;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.AddBtn:hover{
+    border-bottom: solid 9px #ff851c;
+  
+}
+.edtBTN:hover{
+    border-bottom: solid 9px #6fd42c;
+}
+
+.dltBtn{
+    border: solid 4px rgb(155, 51, 51);
+    border-radius: 9px;
+    width: 60px;
+    height: 40px;
+}
+.dltBtn:hover{
+    
+    border: solid 4px rgb(212, 7, 7);
+
+}
+.mainGridText{
+    color: #e2a711ef;
+    display: inline;
+}
+
+.mainGridText:hover{
+    color: rgba(255, 255, 255, 0.788);
+    border-bottom:solid 5px #e2a711ef ;
+   
+}
+.textf{
+    background-color: #00000000;
+    
+    
+    font-size: 25px;
+    padding-left: 15px;
+    color: white ;
+    border: solid 3px rgba(230, 230, 230, 0.322) ;
+    border-radius: 9px;
+    height: 50px;
+    width: 200px;
+}
+.textf:hover{
+    border: solid 4px #6fd42c ;
+}
+.searchSimple{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: 30px;
+    color: white ;
+    border-radius: 15px;
+    width: 320px;
+    background-color: #00000054;
+    padding-left: 30px;
+}
+.searchSimple:hover{
+    border: solid 1px rgba(33, 192, 99, 0.767) ;
+}
+.advnBTN{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    font-weight: lighter;
+    font-size: 25px;
+    color: white !important ;
+    border-radius: 10px;
+    width: 320px;
+    background-color: #00000054;
+    padding-left: 30px;
+    border: none;
+}
+
+.advnBTN:hover{
+    border-top:solid 6px #ff851c;
+    border-bottom:solid 6px #6fd42c ;
+    border-left:solid 6px #53c5f7 ;
+    border-right:solid 6px #53c5f7 ;
+}
+.predictBtn{
+    background-color: #00000054;
+    width: 16%;
+    border-radius: 10px;
+    border:none;
+    font-size: 39px;
+    font-weight: bolder;
+    color: rgba(245, 245, 245, 0.733);
+    border: solid 4px rgba(255, 255, 255, 0.24);
+}
+.predictBtn:hover{
+    background-color: #16b2bd8f;
+    border-top:solid 6px #ff851c;
+    border-bottom:solid 6px #6fd42c ;
+    border-left:solid 6px #53c5f7 ;
+    border-right:solid 6px #53c5f7 ;
+    color: rgb(255, 255, 255);
+}
+.predictBtn:active{
+   color: rgb(253, 199, 21);
+}
+.toplogos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.productLogo{
+   margin-left: 20px;
+    padding-right: 23%;
+    display: flex;
+    
+}
+
+.popupAnalytics{
+    position:fixed;
+    border-radius: 2%;
+    left:0%;
+    top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    height: 88.5%;
+    width: 100%;
+    
+    
+    
+
+}
+.closePopup{
+    position: relative;
+    left:87%;
+    top:-45%;
+    width:50px;
+    height: 50px;
+    background-color: #781a1a56;
+    border-radius: 10%;
+    border:none;
+    z-index: 200;
+}
+.closePopup:hover{
+   
+    background-color: #530606ee;
+    border-radius: 10%;
+    border:none;
+}
+.barchart{
+    background-color: #000000b5;
+    border:solid  9px rgba(2, 42, 94, 0.897);
+    width: 65%;
+    margin-right: 5%;
+    height: 75%;
+    border-radius: 20px;
+    z-index: 200;
+   
+}
+.piechart{
+    width: 30%;
+    
+    height: 60%;
+    border-radius: 20px;
+    position: relative;
+    top:-45px;
+    left:-2%;
+    padding-bottom:5px ;
+    z-index: 200;
+   
+}
+.barcharttxt{
+    background-color: rgba(8, 0, 0, 0.986);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:14%;
+    height: 50px;
+    align-items: center;
+    border-radius: 20px;
+}
+.piecharttxt{
+
+    background-color: rgba(8, 0, 0, 0.663);
+    border-radius: 20px;
+    padding: 4px;
+     color: rgb(255, 255, 255);
+    position: fixed;
+    display: flex;
+    top:44.5%;
+    right:11%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.anlBTN:hover{
+    background-color: #e2a02634;
+    border-bottom: solid 2px #e4a00f;
+    border-radius: 5px;
+    
+}
